@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="viewport" content="width=device-width,initial-scale=1.0"> 
+    <link rel="stylesheet" href="stylesheet/movie-page.css">
+    <script src="js/hollywood-page.js"></script>
+    <link rel="stylesheet" href="stylesheet/a.css">
+    <link rel="stylesheet" href="stylesheet/lightslider.css">
+    <link rel="shortcut icon" href="img/ficon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      .nav-btn{
+       background-color: aliceblue;
+}
+  </style>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <nav>
+        <a href="#" class="logo">
+            <img src="img/logo.png">
+        </a>
+        <input type="checkbox" id="menu-btn" class="menu-btn"/>
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="movies-page.html">Movies</a></li>
+          <li><a href="Tv-show.html">TV Shows</a></li>
+          <li><a href="hollywood-page.html" class="nav-btn">Hollywood</a></li>
+        </ul>
+
+        <div class="search">
+            <input type="search" placeholder="Find Your Faviorate Movie">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </nav>
+
+    <div id="slider">
+      <div class="dp-wrap">
+        <div id="dp-slider">
+    
+          <div class="dp_item" data-class="1" data-position="1">
+            <div class="dp-content">
+    
+              <h2>Pirates of The Caribbean</h2>
+              <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit..</p>
+              <a href="#" class="site-btn">Watch..</a>
+            </div>
+            <div class="dp-img">
+              <img class="img-fluid" src="https://e0.pxfuel.com/wallpapers/267/497/desktop-wallpaper-movie-tv-series-posters-tv-series-hollywood.jpg" alt="investing">
+            </div>
+          </div>
+    
+          <div class="dp_item" data-class="2" data-position="2">
+            <div class="dp-content">
+              <h2>The Fall Guy</h2>
+              <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit..</p>
+              <a href="#" class="site-btn">Watch..</a>
+            </div>
+            <div class="dp-img">
+              <img class="img-fluid" src="https://movies.universalpictures.com/media/thefallguy-slider-mobile-1080x793-664ccb90cab44-1.jpg" alt="investing">
+            </div>
+          </div>
+    
+          <div class="dp_item" data-class="3" data-position="3">
+            <div class="dp-content">
+    
+              <h2>Bad Boys</h2>
+              <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit..</p>
+              <a href="#" class="site-btn">Watch..</a>
+            </div>
+            <div class="dp-img">
+              <img class="img-fluid" src="https://4kwallpapers.com/images/walls/thumbs_3t/16281.jpg" alt="investing">
+            </div>
+          </div>
+    
+          <div class="dp_item" data-class="4" data-position="4">
+            <div class="dp-content">
+    
+              <h2>IF (2023)</h2>
+              <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit..</p>
+              <a href="#" class="site-btn">watch..</a>
+            </div>
+            <div class="dp-img">
+              <img class="img-fluid" src="https://4kwallpapers.com/images/walls/thumbs_3t/16178.jpg" alt="investing">
+            </div>
+          </div>
+        </div>
+    
+        <span id="dp-next">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: none;
+                  stroke:#7498ed;
+                  stroke-miterlimit: 10;
+                  stroke-width: 7px;
+                }
+              </style>
+            </defs>
+            <path id="Rectangle_4_Copy" data-name="Rectangle 4 Copy" class="cls-1" d="M32.246,0V33.178L0,31.953" transform="translate(0.094 25.276) rotate(-45)" />
+          </svg>
+        </span>
+    
+        <span id="dp-prev">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.401 51.401">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: none;
+                  stroke: #7498ed;
+                  stroke-miterlimit: 10;
+                  stroke-width: 7px;
+                }
+              </style>
+            </defs>
+            <path id="Rectangle_4_Copy" data-name="Rectangle 4 Copy" class="cls-1" d="M32.246,0V33.178L0,31.953" transform="translate(0.094 25.276) rotate(-45)" />
+          </svg>
+        </span>
+    
+        <ul id="dp-dots">
+          <li data-class="1" class="active"></li>
+          <li data-class="2"></li>
+          <li data-class="3"></li>
+          <li data-class="4"></li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="js/hollywood-page.js"></script>
+</body>
+</html>
